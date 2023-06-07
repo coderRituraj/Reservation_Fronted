@@ -17,3 +17,7 @@ export const getUser = (userId) => {
 export const updateUser = (userId) => {
   return myAxios.put(`/users/${userId}`).then(response => response.data)
 }
+
+// export const fetchFare =(vehicle,5) => {
+//   return myAxios.get(`http://localhost:8081/fare/${vehicle}/5`).then(response => response.data)
+// }
